@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "Slave-Docker-Build"} 
+    agent {label "Slave-Docker"} 
     environment {
     DOCKERHUB_CREDENTIALS = credentials('docker-hub-rnraju')
     }
